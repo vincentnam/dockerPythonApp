@@ -2,4 +2,3 @@ keras
 pytorch
 numpy
 matplotlib
-PIL
