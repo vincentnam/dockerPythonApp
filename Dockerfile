@@ -10,7 +10,7 @@ RUN apk add --no-cache \
        postgresql-client \
        libpq \
        gettext \
-       libfreetype6-dev \
+       freetype \
        libpng \
    && apk add --no-cache \
               --upgrade \
