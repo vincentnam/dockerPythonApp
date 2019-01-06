@@ -10,6 +10,8 @@ RUN apk add --no-cache \
        postgresql-client \
        libpq \
        gettext \
+       libfreetype6-dev \
+       libpng \
    && apk add --no-cache \
               --upgrade \
               --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
