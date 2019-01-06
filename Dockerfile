@@ -21,6 +21,7 @@ RUN apk add --no-cache \
    && ln -s /usr/lib/libgeos_c.so.1 /usr/lib/libgeos_c.so
 COPY ./requirements.txt /tmp/requirements.txt
 
-RUN pip3 install -U pip && pip install -r /tmp/requirements.txt 
+RUN pip3 install -U pip
+RUN pip install -r /tmp/requirements.txt 
 
 CMD ["echo", "coucou"]
