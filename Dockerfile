@@ -4,3 +4,4 @@ WORKDIR /app
 
 ADD . /app/
 CMD [ "chmod" ,"+x", "/app/processImages.sh"]
+ENTRYPOINT ["./processImages.sh"] 
