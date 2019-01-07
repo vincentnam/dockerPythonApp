@@ -13,7 +13,7 @@ with open('models/keras/architecture.json') as f:
 model.load_weights('models/keras/weights.h5')
 
 
-validation_img_paths = ["../data/"]
+validation_img_paths = []
 for i in range(len(sys.argv)-1):
     validation_img_paths.append("../data/imagetoprocess/" + sys.argv[i+1])
 
@@ -25,4 +25,4 @@ validation_batch = np.stack([preprocess_input(np.array(img.resize((255, 255))))
 pred_probs = model.predict(validation_batch)
 
 for i, img in enumerate(img_list):
-    print(img + " {:.0f}% Alien, {:.0f}% Predator".format(100*pred_probs[i,0],100*pred_probs[i,1]))
+    print(" {:.0f}% Alien, {:.0f}% Predator".format(100*pred_probs[i,0],100*pred_probs[i,1]))
