@@ -1,5 +1,6 @@
 import numpy as np
-from PIL import Image 
+import sys
+from . import Image
 from keras.applications.resnet50 import preprocess_input
 from keras.models import load_model, model_from_json
 
@@ -25,3 +26,6 @@ pred_probs = model.predict(validation_batch)
 
 for i, img in enumerate(img_list):
     print(" {:.0f}% Alien, {:.0f}% Predator".format(100*pred_probs[i,0],100*pred_probs[i,1]))
+
+
+
