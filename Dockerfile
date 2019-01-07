@@ -5,8 +5,9 @@ RUN echo "http://dl-1.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories
     echo "http://dl-3.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories; \
     echo "http://dl-4.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories; \
     echo "http://dl-5.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories
+RUN echo "http://dl-8.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
 COPY ./requirements.txt /tmp/requirements.txt
-RUN apk add pkg-config
+RUN apk pkg-config
 RUN pip3 install -U pip
 RUN pip3 install -r /tmp/requirements.txt
 
