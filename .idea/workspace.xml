@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9a5b29b-d080-43ec-b489-3b1401234bf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py" afterDir="false" />
-    </list>
+    <list default="true" id="c9a5b29b-d080-43ec-b489-3b1401234bf6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -109,12 +107,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546883654287</updated>
-      <workItem from="1546883656398" duration="282000" />
+      <workItem from="1546883656398" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282000" />
+    <option name="totallyTimeSpent" value="576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
@@ -151,7 +149,7 @@
     <entry file="file://$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
