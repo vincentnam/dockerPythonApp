@@ -1,8 +1,8 @@
 import numpy as np
-import sys
-sys.path.append("/app/PIL")
+#import sys
+#sys.path.append("/app/PIL")
 
-from PIL import Image
+from utils.Image import image
 from keras.applications.resnet50 import preprocess_input
 from keras.models import load_model, model_from_json
 
