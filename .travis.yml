@@ -5,4 +5,6 @@ services:
   - docker
 
 script:
-  - docker build -t vincentnam/pythonappdocker .
+  - docker build -t appvcc/dockervccpython .
+  - docker login -u appvcc -p password
+  - docker push appvcc/dockervccpython
