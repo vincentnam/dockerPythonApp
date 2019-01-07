@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ls && ls /alienrecognizer && ls /alienrecognizer/src && ls /alienrecognizer/data/imagetoprocess
+ls && ls alienrecognizer/ && ls alienrecognizer/src && ls alienrecognizer/data/imagetoprocess
 
 until [ ! -f ./alienrecognizer/data/imagetoprocess/imagetoProcess ];
 do
