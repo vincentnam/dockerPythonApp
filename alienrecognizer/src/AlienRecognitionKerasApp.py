@@ -16,9 +16,9 @@ from keras.models import load_model, model_from_json
 validation_img_paths = []
 for i in range(len(sys.argv)-1):
     validation_img_paths.append("../data/imagetoprocess/" + sys.argv[i+1])
-
-img_list = [Image.open(img_path) for img_path in validation_img_paths]
-print( img_list)
+print (sys.argv)
+#img_list = [Image.open(img_path) for img_path in validation_img_paths]
+#print( img_list)
 #validation_batch = np.stack([preprocess_input(np.array(img.resize((255, 255))))
   #                           for img in img_list])
 
