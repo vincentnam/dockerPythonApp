@@ -11,7 +11,7 @@ RUN apk add --no-cache \
        libpq \
        gettext \
        freetype \
-       libpng \
+       libpng-devel \
        pkgconf \
    && apk add --no-cache \
               --upgrade \
