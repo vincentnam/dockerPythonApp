@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -184,12 +184,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546883654287</updated>
-      <workItem from="1546883656398" duration="7869000" />
+      <workItem from="1546883656398" duration="8472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7869000" />
+    <option name="totallyTimeSpent" value="8472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,7 +254,7 @@
     <entry file="file://$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
