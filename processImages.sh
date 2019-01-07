@@ -5,5 +5,5 @@ do
 	:
 done
 
-python3 alienrecognizer/src/AlienRecognitionKerasApp $(cat ./alienrecognizer/data/imagetoprocess/imagetoProcess) > rep.txt
+python3 alienrecognizer/src/AlienRecognitionKerasApp $(cat ./alienrecognizer/data/imagetoprocess/imagetoprocess) > rep.txt
 
