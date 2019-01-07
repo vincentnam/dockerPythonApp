@@ -11,6 +11,6 @@ RUN apk --no-cache --update-cache add gcc gfortran python python-dev py-pip buil
 RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
 
 RUN pip3 install -U pip
-RUN pip3 install -r /tmp/requirements.txt
+RUN pip3 install -r /app/requirements.txt
 
 CMD ["echo", "coucou"]
