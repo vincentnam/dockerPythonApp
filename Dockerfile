@@ -6,7 +6,7 @@ RUN echo "http://dl-1.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories
     echo "http://dl-4.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories; \
     echo "http://dl-5.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories
 RUN echo "http://dl-8.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
-COPY ./requirements.txt /tmp/requirements.txt
+COPY ./ /app
 RUN apk --no-cache --update-cache add gcc gfortran python python-dev py-pip build-base wget freetype-dev libpng-dev openblas-dev
 RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
 
