@@ -1,8 +1,10 @@
 import numpy as np
+import sys
+sys.path.append("/app/PIL")
+
 from PIL import Image
 from keras.applications.resnet50 import preprocess_input
 from keras.models import load_model, model_from_json
-import sys
 
 # architecture and weights from HDF5
 model = load_model('models/keras/model.h5')
