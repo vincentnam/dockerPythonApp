@@ -12,7 +12,7 @@ RUN apk add --no-cache \
        gettext \
        freetype \
        libpng \
-       pkg-config \
+       pkgconf \
    && apk add --no-cache \
               --upgrade \
               --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
