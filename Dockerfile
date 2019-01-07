@@ -2,7 +2,8 @@ FROM python:3.7.0-alpine3.8
 
 ENV PYTHONUNBUFFERED 1 
 
-RUN apk add --no-cache \
+RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && apk update\
+	apk add --no-cache \
             --upgrade \
             --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
        alpine-sdk \
