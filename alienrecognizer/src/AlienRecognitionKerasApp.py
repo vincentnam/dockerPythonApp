@@ -5,12 +5,12 @@ from keras.applications.resnet50 import preprocess_input
 from keras.models import load_model, model_from_json
 
 # architecture and weights from HDF5
-model = load_model('/app/src/models/keras/model.h5')
+model = load_model('./model.h5')
 
 # architecture from JSON, weights from HDF5
-with open('/app/src/models/keras/architecture.json') as f:
+with open('./architecture.json') as f:
     model = model_from_json(f.read())
-model.load_weights('/app/src/models/keras/weights.h5')
+model.load_weights('./weights.h5')
 
 
 validation_img_paths = []
