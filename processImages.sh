@@ -7,5 +7,5 @@ ls && ls alienrecognizer/ && ls alienrecognizer/src && ls alienrecognizer/data/i
 #	:
 #done
 
-python3 alienrecognizer/src/AlienRecognitionKerasApp.py $(cat alienrecognizer/data/imagetoprocess/imagetoProcess) > rep.txt
+python3 alienrecognizer/src/AlienRecognitionKerasApp.py $(cat alienrecognizer/data/imagetoprocess/imagetoProcess) > rep.txt &2 >1
 

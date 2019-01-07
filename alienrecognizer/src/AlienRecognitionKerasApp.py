@@ -12,7 +12,6 @@ from keras.models import load_model, model_from_json
 #    model = model_from_json(f.read())
 #model.load_weights('weights.h5')
 
-
 validation_img_paths = []
 for i in range(len(sys.argv)-1):
     validation_img_paths.append("../data/imagetoprocess/" + sys.argv[i+1])
