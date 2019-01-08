@@ -3,6 +3,7 @@ echo $SWARM_HOST
 sleep 10
 while true; do
     sleep 5
+    echo $SWARM_HOST
     #ls && ls alienrecognizer/ && ls alienrecognizer/src && ls alienrecognizer/data/imagetoprocess
     $IPMana= $(cat /tmp/IPManager)
   #  until scp fedora@$IPMana:/worker1/imagetoprocess /tmp/ ;
