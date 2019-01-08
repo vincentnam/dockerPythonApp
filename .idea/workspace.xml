@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9a5b29b-d080-43ec-b489-3b1401234bf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/alienrecognizer/src/AlienRecognitionKerasApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processImages.sh" beforeDir="false" afterPath="$PROJECT_DIR$/processImages.sh" afterDir="false" />
-    </list>
+    <list default="true" id="c9a5b29b-d080-43ec-b489-3b1401234bf6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,12 +170,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546883654287</updated>
-      <workItem from="1546883656398" duration="14839000" />
+      <workItem from="1546883656398" duration="15148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14839000" />
+    <option name="totallyTimeSpent" value="15148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
