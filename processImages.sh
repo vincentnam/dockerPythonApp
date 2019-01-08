@@ -9,3 +9,4 @@ ls && ls alienrecognizer/ && ls alienrecognizer/src && ls alienrecognizer/data/i
 
 python3 alienrecognizer/src/AlienRecognitionKerasApp.py $(cat alienrecognizer/data/imagetoprocess/imagetoProcess) 
 
+sleep(10)
